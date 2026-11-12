@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_degradado"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUFFALO'S FIGHTERS"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:layout_marginBottom="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Registro exitoso!"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:layout_marginBottom="24dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datos registrados en la inscripción"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            />
+
+        <TextView
+            android:id="@+id/nombreConfirmacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:padding="8dp"
+            />
+        <TextView
+            android:id="@+id/correoConfirmacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo: "
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:padding="8dp"
+            />
+        <TextView
+            android:id="@+id/modalidadConfirmacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modalidad: "
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp"
+            />
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡FINALIZAR REGISTRO!"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="#0A0A0A"
+            android:layout_marginBottom="8dp"
+            />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR AL FORMULARIO"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="#A0A0A0"
+            />
+
+    </LinearLayout>
+</ScrollView>

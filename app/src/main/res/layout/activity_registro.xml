@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_degradado"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRO"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complete los siguientes datos para el registro"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre completo"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/campoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe tu nombre aqui"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            android:textColor="#898989"
+            android:textColorHint="#dddddd"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo electronico"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/campoCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ejemplo@correo.com"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp"
+            android:textColor="#898989"
+            android:textColorHint="#dddddd"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione la modalidad a practicar"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <RadioGroup
+            android:id="@+id/rdGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            >
+            <RadioButton
+                android:id="@+id/rbBoxeo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boxeo"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:buttonTint="#D71920"
+                />
+            <RadioButton
+                android:id="@+id/rbKick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kick Boxing"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:buttonTint="#D71920"
+                />
+            <RadioButton
+                android:id="@+id/rdJiujitsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jiu Jitsu"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:buttonTint="#D71920"
+                />
+            <RadioButton
+                android:id="@+id/rdMma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MMA (Artes Marciales Mixtas)"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:buttonTint="#D71920"
+                />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cbTermminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acepto los términos y condiciones."
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:buttonTint="#ffffff"
+            android:layout_marginBottom="24dp"
+            />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONFIRMAR REGISTRO"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:backgroundTint="#0A0A0A"
+            android:layout_marginBottom="8dp"
+            />
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#A0A0A0"
+            />
+
+    </LinearLayout>
+</ScrollView>

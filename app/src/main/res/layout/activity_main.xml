@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_degradado"
+    >
+
+    <ImageView
+        android:id="@+id/logoBuf"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_buffalos"
+        android:contentDescription="Logo oficial de Buffalo's Fighters"
+        android:layout_marginBottom="24dp"
+        />
+
+    <TextView
+        android:id="@+id/tituloInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BUFFALO'S FIGHTERS"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sloganBuff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Una vida, Una guerra!"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMENZAR INSCRIPCIÓN"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:backgroundTint="#0A0A0A"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALIR"
+        android:textColor="#ffffff"
+        android:backgroundTint="#A0A0A0"
+        />
+
+    </LinearLayout>
